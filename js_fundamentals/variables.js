@@ -7,6 +7,15 @@
 // Store the following into variables: number of children, partner's name, geographic location, job title.
 // Output your fortune to the screen like so: "You will be a X in Y, and married to Z with N kids."
 
+var numChildren  = 0
+			,	partner  = "a carrot"
+			, place = "Neverland"
+			, jobTitle = "rockstar";
+
+alert("You will be a " + jobTitle + " in " + place + ", and married to " + partner + " with " + numChildren + " kids.");
+			
+  
+
 // EXERCISE: The Age Calculator
 
 // Forgot how old someone is? Calculate it!
