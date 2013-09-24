@@ -54,6 +54,13 @@ alert("You will need " + lifeSupply + " to last you until the ripe old age of " 
 // Calculate the circumference based on the radius, and output "The circumference is NN".
 // Calculate the area based on the radius, and output "The area is NN".
 
+var radius = 5
+	, circumference = Math.PI * radius * 2
+	, area = Math.PI * Math.pow(radius,2);
+
+alert("The circumference is " + circumference);
+alert("The area is " + area);
+
 // EXERCISE: The Temperature Converter
 
 // It's hot out! Let's make a converter based on the steps here.
