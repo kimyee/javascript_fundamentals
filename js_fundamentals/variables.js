@@ -40,6 +40,12 @@ var year    = 2013
 // Calculate how many you would eat total for the rest of your life.
 // Output the result to the screen like so: "You will need NN to last you until the ripe old age of X".
 
+var age = 5
+	, maxAge = 10
+	, amount = 6
+	, lifeSupply = 30  
+alert("You will need " + lifeSupply + " to last you until the ripe old age of " + maxAge);
+
 // EXERCISE: The Geometrizer
 
 // Calculate properties of a circle, using the definitions here.
