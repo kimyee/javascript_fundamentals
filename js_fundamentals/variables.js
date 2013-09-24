@@ -25,6 +25,11 @@ alert("You will be a " + jobTitle + " in " + place + ", and married to " + partn
 // Calculate their 2 possible ages based on the stored values.
 // Output them to the screen like so: "They are either NN or NN", substituting the values.
 
+var year    = 2013
+	, birthyr = 2000;
+
+	alert(year - birthyr);
+
 // EXERCISE: The Lifetime Supply Calculator
 
 // Ever wonder how much a "lifetime supply" of your favorite snack is? Wonder no more!
