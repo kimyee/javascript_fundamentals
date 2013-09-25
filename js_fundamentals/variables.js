@@ -70,4 +70,13 @@ alert("The area is " + area);
 // Now store a fahrenheit temperature into a variable.
 // Convert it to celsius and output "NN°F is NN°C."
 
+var celsius = 20
+	, convert_to_fahrenheit = celsius * 9/5 + 32
+	, fahrenheit = 20
+	, convert_to_celsius = (fahrenheit - 32) * 5/9;
+
+alert(celsius + "°C is " + convert_to_fahrenheit + "°F. " + 
+			fahrenheit + "°F is " + convert_to_celsius + "°C.");
+
+
 
