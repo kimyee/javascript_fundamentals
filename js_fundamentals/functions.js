@@ -9,6 +9,13 @@
 // outputs your fortune to the screen like so: "You will be a X in Y, and married to Z with N kids."
 // Call that function 3 times with 3 different values for the arguments.
 
+function tellFortune(numChildren, partner, location, job){
+	alert("You will be a " + job + " in " + location + ", and married to " + partner + " with " + numChildren + " kids");
+}
+tellFortune(4, "Peter Pan", "San Diego", "fairy");
+tellFortune(9, "Sandy", "Squidoland", "magician");
+tellFortune(7, "Jamie", "Neverland", "wizard");
+
 // EXERCISE: The Age Calculator
 
 // Forgot how old you are? Calculate it!
