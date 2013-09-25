@@ -101,3 +101,19 @@ calcCircumfrence() + calcArea();
 // Now store a fahrenheit temperature into a variable.
 // Convert it to celsius and output "NN°F is NN°C."
 
+function celsiusToFahrenheit(){
+	var celsius = 20;
+	var convert_to_fahrenheit = celsius * 9/5 + 32;
+
+	alert(celsius + "°C is " + convert_to_fahrenheit + "°F.");
+}
+
+function fahrenheitToCelsius(){
+	var fahrenheit = 20;
+	var convert_to_celsius = (fahrenheit - 32) * 5/9;
+
+	alert(fahrenheit + "°F is " + convert_to_celsius + "°C.");
+}
+
+celsiusToFahrenheit() + fahrenheitToCelsius();
+
