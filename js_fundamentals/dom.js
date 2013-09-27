@@ -6,8 +6,16 @@
 
 // Open up www.google.com in Chrome or Firefox, and open up the console.
 // Find the Google logo and store it in a variable.
+	inspect element on Google logo
+	getLogo = document.getElementById('hplogo');
+	
 // Modify the source of the logo IMG so that it's a Yahoo logo instead.
+	newLogo = "http://socialsteak.com/wp-content/uploads/2013/08/yahoo-logo.jpg"
+	changeLogo = getLogo.setAttribute("style", "background:url('" + newLogo + "')");
+
 // Find the Google search button and store it in a variable.
+find_search = document.getElementById('gbqfsa');
+
 // Modify the text of the button so that it says "Yahooo!" instead.
 
 // EXERCISE: About Me
