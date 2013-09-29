@@ -5,25 +5,29 @@
 // Change the background color of '#target' by script. 
 // Hint: you can use .css
 	
-$(document).ready(function(){
-	$("#target").css({
-		"background-color": "green"
-	});
-});
+	// $(document).ready(function(){
+	// 	$("#target").css({
+	// 		"background-color": "green"
+	// 	});
+	// });
 
 // EXERCISE: Change Parent
 
 // Change the text in the span, a child of "#target"
 // Hint: you can use .text
 
-// $(document).ready(function(){
-// 	$("span").text("you've been changed")
-// });
+	// $(document).ready(function(){
+	// 	$("span").text("you've been changed")
+	// });
 
 // EXERCISE: Create Clone
 
 // Create a clone of the span in "#target" and position it under the origin.
 // Hint: you can use .clone and .insertAfter
+
+	$(document).ready(function(){
+		$("span").clone().insertAfter("span");
+	});
 
 // EXERCISE: Use Filter
 
