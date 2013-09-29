@@ -5,6 +5,10 @@
 // Change the background color of '#target' by script. 
 // Hint: you can use .css
 
+#target{
+	background-color: green 
+};
+
 // EXERCISE: Change Parent
 
 // Change the text in the span, a child of "#target"
