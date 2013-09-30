@@ -25,19 +25,27 @@
 // Create a clone of the span in "#target" and position it under the origin.
 // Hint: you can use .clone and .insertAfter
 
-	$(document).ready(function(){
-		$("span").clone().insertAfter("span");
-	});
+	// $(document).ready(function(){
+	// 	$("span").clone().insertAfter("span");
+	// });
 
 // EXERCISE: Use Filter
 
 // Change background color of the second ".target"
 // Hint: you can use .eq and .css
 
+	
+	$(document).ready(function(){
+		$(".target").eq(1).css({"background-color": "green"});
+	});
+
+
 // EXERCISE: Disable Buttons
 
 // Disable the button
 // Hint: you will have to select the button and can use .attr
+
+	
 
 // EXERCISE: Uncheck CheckBoxes
 
